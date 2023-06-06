@@ -1,0 +1,232 @@
+@media (max-width: 575.98px) { 
+    .nav_bg{
+        background: linear-gradient(to left, #f7f779, #957639ba);
+    }
+    .nav_bg .navbar-nav .nav-link{
+        padding: 7px 0;
+    }
+    .nav_bg .navbar-nav .nav-link::before{
+        width: 16%;
+        left: 8%;
+        bottom: 10px;
+    }
+    .nav_bg .navbar-nav .nav-link:hover::before{
+        left:8%;
+    }
+    .navbar-light .navbar-nav .nav-link.active.nav-link::before{
+        left: 8%;
+    }
+
+    #banner {
+        padding-bottom: 300px;
+        position: relative;
+        width: 100%;
+    }
+    .ban_text{
+        position: absolute;
+        top: 65%;
+        left: 55%;
+    }
+    .ban_text h1{
+        font-size: 25px; 
+        padding-bottom: 15px;
+        color: black;
+    }
+    .bann-img {
+        padding-top: 20px;
+        width: 400px;
+    }
+    .bann-img img{
+        width: 100%;
+    }
+    .ban_btn {
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .ban_btn a{
+        padding: 5px 10px;
+        text-transform: uppercase;
+        font-size: 15px;
+        border: 1px solid transparent;
+    }
+
+    /* about part */
+
+    .about_content h5{
+        padding-top: 20px;
+    }
+    .about_content h3{
+        line-height: 25px;
+    }
+    .about_content ul li{
+       width: 100%;
+      
+    }
+    .about_content ul li .versity{
+        font-size: 15px;
+    }
+    .about_image img {
+        width: 340px;
+        height: 425px;
+    }
+    .portfolio_btn_main button {
+        padding: 2px;
+        font-size: 13px;
+        margin: 1px;
+    }     
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .nav_bg{
+        background: linear-gradient(to left, #f7f779, #957639ba);
+    }
+    .nav_bg .navbar-nav .nav-link{
+        padding: 3px 0;
+    }
+    .nav_bg .navbar-nav .nav-link::before{
+        width: 16%;
+        left: 8%;
+        bottom: 5px;
+    }
+    .nav_bg .navbar-nav .nav-link:hover::before{
+        left:8%;
+    }
+    .navbar-light .navbar-nav .nav-link.active.nav-link::before{
+        left: 8%;
+    }
+    #banner {
+        padding-bottom: 300px;
+        position: relative;
+        width: 100%;
+    }
+    .ban_text {
+        position: absolute;
+        top: 38%;
+        left: 81%;
+    }
+    .ban_text h1{
+        font-size: 35px; 
+        padding-bottom: 25px;
+        color: black;
+    }
+    .bann-img {
+       
+        display: none;
+    }
+    /* .bann-img img{
+        width: 100%;
+    } */
+    .ban_btn {
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .ban_btn a{
+        padding: 8px 10px;
+        text-transform: uppercase;
+        font-size: 20px;
+        border: 1px solid transparent;
+    }
+    .about_content h5{
+        padding-top: 20px;
+    }
+    .about-info{
+        width: 70%;
+        float: left;
+    }
+    .about_content ul li{
+        width: 100%;
+     }
+     .about-img{
+        padding-top: 50px;
+        width: 30%;
+        float: left;
+     }
+     .about_image img {
+        width: 100%;
+        height: 180px;
+    }
+    .portfolio_btn_main button {
+        padding: 7px;
+        font-size: 16px;
+        margin: 6px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .nav_bg{
+        background: linear-gradient(to left, #f7f779, #957639ba);
+    }
+    .nav_bg .navbar-nav .nav-link{
+        padding: 3px 0;
+    }
+    .nav_bg .navbar-nav .nav-link::before{
+        width: 16%;
+        left: 8%;
+        bottom: 5px;
+    }
+    .nav_bg .navbar-nav .nav-link:hover::before{
+        left:8%;
+    }
+    .navbar-light .navbar-nav .nav-link.active.nav-link::before{
+        left: 8%;
+    }
+   
+    #banner {
+        padding-bottom: 300px;
+        position: relative;
+        width: 100%;
+    }
+    .ban_text{
+        position: absolute;
+        top: 65%;
+        left: 55%;
+    }
+    .ban_text h1{
+        font-size: 25px; 
+        padding-bottom: 15px;
+        color: black;
+    }
+    .bann-img {
+        padding-top: 20px;
+        width: 400px;
+    }
+    .bann-img img{
+        width: 100%;
+    }
+    /* .bann-img img{
+        width: 100%;
+    } */
+    .ban_btn {
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .ban_btn a{
+        padding: 8px 10px;
+        text-transform: uppercase;
+        font-size: 20px;
+        border: 1px solid transparent;
+    }
+    .about_content h5{
+        padding-top: 20px;
+    }
+    .about-info{
+        width: 70%;
+        float: left;
+    }
+    .about_content ul li{
+        width: 100%;
+     }
+     .about-img{
+        padding-top: 50px;
+        width: 30%;
+        float: left;
+     }
+     .about_image img {
+        width: 100%;
+        height: 180px;
+    }
+    .portfolio_btn_main button {
+        padding: 7px;
+        font-size: 16px;
+        margin: 6px;
+    }
+}
